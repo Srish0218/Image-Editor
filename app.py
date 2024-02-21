@@ -4,7 +4,7 @@ from PIL.ImageFilter import *
 
 st.markdown("""
 <style>
-.st-emotion-cache-6q9sum.ef3psqc4 , .st-emotion-cache-1wbqy5l.e17vllj40
+.st-emotion-cache-6q9sum.ef3psqc4 , .st-emotion-cache-1wbqy5l.e17vllj40 , st-emotion-cache-1avcm0n ezrtsby2
 {
      visibility: hidden;
 }
