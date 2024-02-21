@@ -2,6 +2,15 @@ import streamlit as st
 from PIL import Image
 from PIL.ImageFilter import *
 
+st.markdown("""
+<style>
+.st-emotion-cache-6q9sum.ef3psqc4 , .st-emotion-cache-1wbqy5l.e17vllj40
+{
+     visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown("<h1 style ='text-align:center;'>Image Editor</h1>", unsafe_allow_html=True)
 st.markdown("---")
 
@@ -28,7 +37,7 @@ if image:
     st.markdown("---")
 
     st.markdown("<h2 style ='text-align:center;'> Filters </h2>", unsafe_allow_html=True)
-    filter_img = st.selectbox("Filters" , options= ("None" , "Blur" , "Detail" , "Emboss" , "Smooth"))
+    filter_img = st.selectbox("Filters", options=("None", "Blur", "Detail", "Emboss", "Smooth"))
 
     s_btn = st.button("Submit")
     if s_btn:
